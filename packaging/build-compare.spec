@@ -30,7 +30,6 @@ Source2:        same-build-result.sh
 Source3:        rpm-check.sh
 Source4:        functions.sh
 Source5:        srpm-check.sh
-Source1001: packaging/build-compare.manifest 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
 
@@ -45,7 +44,6 @@ mkdir $RPM_BUILD_DIR/%name-%version
 %setup -T 0 -D
 
 %build
-cp %{SOURCE1001} .
 
 %install
 mkdir -p $RPM_BUILD_ROOT/usr/lib/build/ $RPM_BUILD_ROOT/%_defaultdocdir/%name
@@ -53,7 +51,6 @@ install -m 0755 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 $RPM_BUILD_ROOT/usr/lib/buil
 install -m 0644 %SOURCE1 $RPM_BUILD_ROOT/%_defaultdocdir/%name/
 
 %files
-%manifest build-compare.manifest
 %defattr(-,root,root)
 %doc %_defaultdocdir/%name
 /usr/lib/build

@@ -25,6 +25,7 @@ AutoReqProv:    on
 Summary:        Build Result Compare Script
 Version:        2009.10.14
 Release:        26
+VCS:            toolchains/build-compare#submit/trunk/20121019.065147-0-g0775b7d9dcc58bb232709c504d5b53c13cd0a60b
 Source1:        COPYING
 Source2:        same-build-result.sh
 Source3:        rpm-check.sh

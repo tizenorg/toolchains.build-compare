@@ -1,3 +1,32 @@
+* Mon Sep 16 2013 UkJung Kim <ujkim@samsung.com> - submit/trunk/20121019.065147 
+- PROJECT: toolchains/build-compare
+- COMMIT_ID: 0775b7d9dcc58bb232709c504d5b53c13cd0a60b
+- PATCHSET_REVISION: 0775b7d9dcc58bb232709c504d5b53c13cd0a60b
+- CHANGE_OWNER: \"UkJung Kim\" <ujkim@samsung.com>
+- PATCHSET_UPLOADER: \"UkJung Kim\" <ujkim@samsung.com>
+- CHANGE_URL: http://slp-info.sec.samsung.net/gerrit/103289
+- PATCHSET_REVISION: 0775b7d9dcc58bb232709c504d5b53c13cd0a60b
+- TAGGER: UkJung Kim <ujkim@samsung.com>
+- Gerrit patchset approval info:
+- UkJung Kim <ujkim@samsung.com> Verified : 1
+- Newton Lee <newton.lee@samsung.com> Code Review : 2
+- CHANGE_SUBJECT: Initial commit
+
+- [Version] 2009.10.14
+- [Project] GT-I8800
+- [Title] Initial commit
+- [BinType] PDA
+- [Customer] Open
+- [Issue#] N/A
+- [Problem] N/A
+- [Cause] N/A
+- [Solution]
+- [Team] SCM
+- [Developer] UkJung Kim <ujkim@samsung.com>
+- [Request] N/A
+- [Horizontal expansion] N/A
+- [SCMRequest] N/A
+
 * Mon Jan 10 2011 Anas Nashif <anas.nashif@intel.com> - 2009.10.14
 - Update script from upstream with more checks
 
